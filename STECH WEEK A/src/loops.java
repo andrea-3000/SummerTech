@@ -12,11 +12,16 @@ public class loops {
 		boxSize -= 3;
 		int loopCount = 0;
 		String boxSide = "*   *";
+		
+		//if box size == 1
 		if (boxSize == -2) {
 			System.out.println("*****");
+			
+		//if box size == 2
 		} else if (boxSize == -1) {
 			System.out.println("*****");
 			System.out.println("*****");
+			
 		} else {
 			System.out.println("*****");
 			while (loopCount <= boxSize) {
